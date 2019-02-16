@@ -9,10 +9,16 @@ nav{
   padding: 10px;
   width: 100%;
 }
-.stick{
-  position: fixed;
-  top: 0;
-  z-index: 1;
+
+  .stick{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid;
+  }
+
+footer{
+  background-color:
 }
 #nav_image{
   width: 150px;
@@ -28,8 +34,14 @@ nav{
   text-decoration: none;
   color: #A29F9D;
 }
-.nav_alast{
+#nav_alast{
   margin-right: 40px;
+  border-radius: 10px 10px;
+  padding:5px 10px;
+  line-height: 5px;
+  border: none;
+  background-color:#4d90fe;
+  color:white;
 }
 #nav_article{
   height: 60px;
@@ -67,7 +79,7 @@ article{
 button{
   border-radius: 10px 10px;
   border:none;
-  padding: 10px;
+  padding: 15px;
   line-height: 15px;
 }
 #div2_h1{
@@ -76,14 +88,19 @@ button{
 }
 
 #div2_imgdiv{
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .div2_img{
   width: 130px;
-  margin:10px 100px;
+}
+figure {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  padding: 0.5em;
 }
