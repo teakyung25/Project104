@@ -11,13 +11,13 @@ html,body{
 
 #nav_div{
   margin: 0;
-  width: 15%;
+  width: 20%;
   height: 100%;
   position: fixed;
 }
 
 article{
-  width: 85%;
+  width: 80%;
   height: 100%;
   display: block;
   background: whitesmoke;
@@ -31,7 +31,7 @@ article{
 
 a{
   display:block;
-  padding:10px 15px;
+  padding:20px 25px;
   background-color:#100e17;
   color:white;
   text-decoration: none;
